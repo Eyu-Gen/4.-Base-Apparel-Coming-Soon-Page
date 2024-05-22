@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyu Gen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="images/yugin.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="imageSection" id="logo">
+            <img src="images/logo.svg" alt="">
+        </div>
+    </header>
+
+    <main>
+        <section class="container" id="imageContainer">
+            <div class="imageSection">
+                <img src="images/hero-desktop.jpg" alt="" id="heroDesktop">
+                <img src="images/hero-mobile.jpg" alt="" id="heroMobile">
+            </div>
+        </section>
+
+        <section class="container" id="detailsContainer">
+            <div class="imageSection" id="bgImage">
+                <img src="images/bg-pattern-desktop.svg" alt="">
+            </div>
+            <p class="heading">
+                <span class="highlight">we're</span> coming soon
+            </p>
+
+            <p class="description">
+                Hellow fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with
+                announcements and our lunch deals.
+            </p>
+
+            <div class="inputSection">
+                <input type="text" placeholder="Email Address" name="email" id="email">
+                <div class="imageSection" id="errorImg">
+                    <img src="images/icon-error.svg" alt="">
+                </div>
+                <button id="sendBtn">
+                    <div class="imageSection">
+                        <img src="images/icon-arrow.svg" alt="">
+                    </div>
+                </button>
+            </div>
+            <p id="error">Please provide a valid email</p>
+            <p id="reEnter">Please enter your email</p>
+        </section>
+    </main>
+    <script src="index.js" defer></script>
+</body>
+</html>
