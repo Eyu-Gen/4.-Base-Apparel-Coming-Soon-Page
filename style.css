@@ -16,6 +16,8 @@
 body{
     position: relative;
     padding: 70px 150px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .imageSection{
